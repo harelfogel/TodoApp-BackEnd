@@ -1,0 +1,18 @@
+{
+  "name": "BackEnd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "json:server":"json-server http://jsonplaceholder.typicode.com/db --port=3004",
+    "start":"json-server http://jsonplaceholder.typicode.com/db --port=3004"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.0",
+    "save": "^2.4.0"
+  }
+}
